@@ -39,7 +39,14 @@ body {
     width: 90%;
     object-fit: cover;
 }
-
+.nav {
+    background-color: #87ceeb;
+    padding: 15px;
+    margin-top: 15px;
+}
+.nav__a {
+    padding: 15px;
+}
 .wrapper {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -64,7 +71,7 @@ body {
 .news {
     background-color: #87ceeb;
     padding: 15px;
-    width: 48%;
+    width: 74%;
 }
 .news__h2 {
     padding: 15px;
@@ -75,19 +82,6 @@ body {
     font-weight: 500;
 }
 .news__p {
-    padding: 15px;
-    font-weight: 400;
-}
-.history {
-    background-color: #87ceeb;
-    padding: 15px;
-    width: 25%;
-}
-.history__h2 {
-    padding: 15px;
-    font-weight: 500;
-}
-.history__p {
     padding: 15px;
     font-weight: 400;
 }

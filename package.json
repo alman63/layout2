@@ -10,15 +10,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/alman63/layout.git"
+        "url": "git+https://github.com/alman63/layout2.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/alman63/layout/issues"
+        "url": "https://github.com/alman63/layout2/issues"
     },
-    "homepage": "https://github.com/alman63/layout#readme",
+    "homepage": "https://github.com/alman63/layout2#readme",
     "devDependencies": {
         "@babel/core": "^7.20.2",
         "@babel/preset-env": "^7.20.2",
