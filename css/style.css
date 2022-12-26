@@ -16,7 +16,7 @@ body {
     margin: 0 auto;
     background-color: white;
 }
-
+/* заголовок */
 .header {
     background-color: #87ceeb;
     display: flex;
@@ -39,6 +39,7 @@ body {
     width: 90%;
     object-fit: cover;
 }
+/* навигация по сайту */
 .nav {
     background-color: #87ceeb;
     padding: 15px;
@@ -47,6 +48,7 @@ body {
 .nav__a {
     padding: 15px;
 }
+/* центральная часть сайта */
 .wrapper {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -55,36 +57,38 @@ body {
     gap: 15px;
     align-items: stretch;
 }
-.interesting {
-    background-color: #87ceeb;
-    padding: 15px;
-    width: 25%;
-}
-.interesting__h2 {
-    padding: 15px;
-    font-weight: 500;
-}
-.interesting__p {
-    padding: 15px;
-    font-weight: 400;
-}
-.news {
+.main {
     background-color: #87ceeb;
     padding: 15px;
     width: 74%;
 }
-.news__h2 {
+.main__h2 {
     padding: 15px;
     font-weight: 500;
 }
-.news__h3 {
+.main__h3 {
     padding: 15px;
     font-weight: 500;
 }
-.news__p {
+.main__p {
     padding: 15px;
     font-weight: 400;
 }
+/* записи сайта */
+.posts {
+    background-color: #87ceeb;
+    padding: 15px;
+    width: 25%;
+}
+.posts__h2 {
+    padding: 15px;
+    font-weight: 500;
+}
+.posts__p {
+    padding: 15px;
+    font-weight: 400;
+}
+/* подвал сайта */
 .footer {
     background-color: #87ceeb;
     padding: 15px;
