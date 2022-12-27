@@ -1,0 +1,17 @@
+.news {
+    background-color: $background-color;
+    padding: $padding;
+    width: 25%;
+    &__h2 {
+        @include padding_fw5;
+        color: $color;
+    }
+    &__h3 {
+        @include padding_fw5;
+        text-align: center;
+        color: $color;
+    }
+    &__p {
+        @include padding_fw4;
+    }
+}

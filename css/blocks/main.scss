@@ -1,0 +1,13 @@
+.main {
+    background-color: $background-color;
+    padding: $padding;
+    width: 74%;
+    &__h2,
+    &__h3 {
+        @include padding_fw5;
+        color: $color;
+    }
+    &__p {
+        @include padding_fw4;
+    }
+}

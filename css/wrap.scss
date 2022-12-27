@@ -1,0 +1,8 @@
+.wrapper {
+    padding-top: $padding;
+    padding-bottom: $padding;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: $padding;
+    align-items: stretch;
+}

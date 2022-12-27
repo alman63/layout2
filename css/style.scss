@@ -1,0 +1,15 @@
+@import 'vars.scss';
+@import 'font.scss';
+@import 'global.scss';
+@import 'blocks/header.scss';
+@import 'blocks/nav.scss';
+@import 'wrap.scss';
+@import 'blocks/main.scss';
+@import 'blocks/news.scss';
+@import 'blocks/footer.scss';
+@import 'blocks/form.scss';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

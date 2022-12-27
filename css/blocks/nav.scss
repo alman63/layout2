@@ -1,0 +1,13 @@
+.nav {
+    background-color: $background-color;
+    padding: $padding;
+    margin-top: $padding;
+    &__a {
+        padding: $padding;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    &__a:hover {
+        background-color: #b0d1ed;
+    }
+}

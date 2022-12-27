@@ -1,0 +1,46 @@
+@mixin input_form {
+    margin: 15px;
+    border: 1px solid $color;
+}
+
+.contact {
+    background-color: $background-color;
+    padding: $padding;
+    width: 74%;
+    &__h2 {
+        padding: $padding;
+        color: $color;
+    }
+    &__form {
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+.contact__form_input {
+    display: block;
+    @include input_form;
+    &:focus {
+        outline: none;
+        border: 2px solid $color;
+    }
+}
+.contact__form_text {
+    display: block;
+    @include input_form;
+    width: 300px;
+    height: 150px;
+    &:focus {
+        outline: none;
+        border: 2px solid $color;
+    }
+}
+.contact__form_button {
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+    @include input_form;
+    cursor: pointer;
+    &:hover {
+        background-color: $color;
+    }
+}
