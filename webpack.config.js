@@ -48,6 +48,18 @@ module.exports = (env) => ({
         new HtmlWebpackPlugin({
             template: 'index.html',
         }),
+        new HtmlWebpackPlugin({
+            template: './html/contacts.html',
+            filename: 'contacts.html',
+        }),
+        new HtmlWebpackPlugin({
+            template: './html/posts.html',
+            filename: 'posts.html',
+        }),
+        new HtmlWebpackPlugin({
+            template: './html/post.html',
+            filename: 'post.html',
+        }),
         new MiniCssExtractPlugin(),
     ],
     optimization: {
