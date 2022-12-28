@@ -1,0 +1,30 @@
+.page {
+    background-color: $background-color;
+    padding: $padding;
+    width: 74%;
+    &__h2 {
+        text-align: center;
+        padding: $padding;
+    }
+    &__h3 {
+        text-align: center;
+        padding: $padding;
+    }
+    &__img {
+        height: 350px;
+        max-width: 100%;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+    &__p {
+        margin-bottom: 15px;
+    }
+    &__img_sm {
+        float: left;
+        height: 250px;
+        max-width: 50%;
+        object-fit: cover;
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+}
