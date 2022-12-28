@@ -1,0 +1,41 @@
+.posts {
+    background-color: $background-color;
+    padding: $padding;
+    width: 74%;
+    &__h2 {
+        @include padding_fw5;
+        color: $color;
+        margin-bottom: 20px;
+    }
+}
+.posts__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2%;
+}
+.posts__item {
+    width: 45%;
+    text-align: center;
+    padding-bottom: 30px;
+    &_h3 {
+        font-size: 1em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    &_date,
+    &_author {
+        text-align: left;
+        font-size: 0.8em;
+    }
+    &_description {
+        text-align: left;
+    }
+}
+.posts__item_img {
+    height: 250px;
+    max-width: 100%;
+    object-fit: cover;
+}
