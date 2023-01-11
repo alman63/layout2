@@ -1,0 +1,21 @@
+.header {
+    background-color: $background-color;
+    display: flex;
+    gap: 2%;
+    &__left {
+        width: 39%;
+    }
+    &__rigth {
+        width: 59%;
+    }
+    &__h1,
+    &__h2 {
+        padding: $padding;
+        color: $color;
+    }
+    &__img {
+        padding: $padding;
+        width: 90%;
+        object-fit: cover;
+    }
+}

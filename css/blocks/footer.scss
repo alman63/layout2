@@ -1,0 +1,9 @@
+.footer {
+    background-color: $background-color;
+    padding: $padding;
+    display: flex;
+    gap: 2%;
+    &__p {
+        @include padding_fw4;
+    }
+}
