@@ -4,4 +4,4 @@ import '../css/style.scss';
 import '../html/contacts.html';
 import '../html/posts.html';
 import '../html/post.html';
-import './slider.js';
+import './slider';
