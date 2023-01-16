@@ -68,6 +68,6 @@ module.exports = (env) => ({
     devServer: {
         compress: true,
         port: 9000,
-        watchFiles: ['*.html', '*.css'],
+        watchFiles: ['*.html', '*.css', '*.jpg'],
     },
 });

@@ -14,6 +14,19 @@
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap"
             rel="stylesheet"
         />
+        <script src="src/slider.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const autoplay = true; // автопрокрутка true|false
+                const speed = 3000; //скорость прокрутки
+
+                new Slider(
+                    document.querySelector('.wrap__sliders'),
+                    autoplay,
+                    speed
+                );
+            });
+        </script>
     </head>
     <body>
         <header class="header">
@@ -33,6 +46,48 @@
         <div class="wrapper">
             <main class="main">
                 <h2 class="main__h2">Сайт о красивом городе Самара</h2>
+                <ul class="wrap__sliders">
+                    <div class="sliders__window">
+                        <div class="sliders">
+                            <li class="sliders__item">
+                                <img
+                                    class="sliders__item_img"
+                                    src="assets/slider/1.jpg"
+                                />
+                            </li>
+                            <li class="sliders__item">
+                                <img
+                                    class="sliders__item_img"
+                                    src="assets/slider/2.jpg"
+                                />
+                            </li>
+                            <li class="sliders__item">
+                                <img
+                                    class="sliders__item_img"
+                                    src="assets/slider/3.jpg"
+                                />
+                            </li>
+                            <li class="sliders__item">
+                                <img
+                                    class="sliders__item_img"
+                                    src="assets/slider/4.jpg"
+                                />
+                            </li>
+                            <li class="sliders__item">
+                                <img
+                                    class="sliders__item_img"
+                                    src="assets/slider/5.jpg"
+                                />
+                            </li>
+                        </в>
+                    </div>
+                    <a href="#" class="sliders-prev">
+                        <span class="carousel-prev-icon">&lt;</span>
+                    </a>
+                    <a href="#" class="sliders-next">
+                        <span class="carousel-next-icon">&gt;</span>
+                    </a>
+                </ul>
                 <div class="main__item1">
                     <h3 class="main__h3">
                         Какие достопримечательности рекомендуем посмотреть
