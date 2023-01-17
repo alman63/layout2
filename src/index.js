@@ -4,7 +4,7 @@ import '../css/style.scss';
 import '../html/contacts.html';
 import '../html/posts.html';
 import '../html/post.html';
-import { Slider } from '../src/Slider.js';
+import { Slider } from '../src/slider.js';
 
 document.addEventListener('DOMContentLoaded', function () {
     const autoplay = true; // автопрокрутка true|false
