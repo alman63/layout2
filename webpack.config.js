@@ -36,7 +36,7 @@ module.exports = (env) => ({
                 loader: 'html-loader',
             },
             {
-                test: /\.(jpg)$/i,
+                test: /\.(jpg|png)$/i,
                 type: 'asset/resource',
                 generator: {
                     filename: 'images/[name][ext]',

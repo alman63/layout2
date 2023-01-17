@@ -1,4 +1,4 @@
-class Slider {
+export class Slider {
     constructor(slider, autoplay, speed) {
         this.slider = slider;
         this.allFrames = slider.querySelectorAll('.sliders__item');

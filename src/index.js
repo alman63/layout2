@@ -4,4 +4,11 @@ import '../css/style.scss';
 import '../html/contacts.html';
 import '../html/posts.html';
 import '../html/post.html';
-import './slider';
+import { Slider } from '../src/Slider.js';
+
+document.addEventListener('DOMContentLoaded', function () {
+    const autoplay = true; // автопрокрутка true|false
+    const speed = 3000; //скорость прокрутки
+
+    new Slider(document.querySelector('.wrap__sliders'), autoplay, speed);
+});
